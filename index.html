@@ -1,0 +1,533 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arcane</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Arcane</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Arcane</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+          <ul class="navbar-nav justify-content-center flex-grow-1 pe-3">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="/">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./about.html">About</a>
+            </li>
+           
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Services
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li class="dropdown-submenu">
+                <a class="dropdown-item dropdown-toggle" href="#">Bim Consulting Services</a>
+                <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Sub Service 1</a></li>
+                    <li><a class="dropdown-item" href="#">Sub Service 2</a></li>
+                </ul>
+            </li>
+              <li class="dropdown-submenu">
+                <a class="dropdown-item dropdown-toggle" href="#">Bim Outsourcing Services</a>
+                <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Sub Service 1</a></li>
+                    <li><a class="dropdown-item" href="#">Sub Service 2</a></li>
+                </ul>
+            </li>
+            <li class="dropdown-submenu">
+              <a class="dropdown-item dropdown-toggle" href="#">Visualization Services</a>
+              <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Sub Service 1</a></li>
+                  <li><a class="dropdown-item" href="#">Sub Service 2</a></li>
+              </ul>
+          </li>
+          <li class="dropdown-submenu">
+            <a class="dropdown-item dropdown-toggle" href="#">Integrated Services</a>
+            <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Sub Service 1</a></li>
+                <li><a class="dropdown-item" href="#">Sub Service 2</a></li>
+            </ul>
+        </li>
+        <li><a class="dropdown-item" href="#">Virtual Office Setup</a></li>
+             
+            </ul>
+        </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Case Studies</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Blog</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact us</a>
+            </li>
+          </ul>
+          <button class="btn " type="submit">Let's Talk</button>
+          <!-- <form class="d-flex mt-3" role="search"> -->
+            <!-- <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"> -->
+            <!-- <button class="btn btn-outline-success" type="submit">Let's Talk</button> -->
+          <!-- </form> -->
+        </div>
+      </div>
+    </div>
+  </nav>
+
+       <!-- Hero- Section -->
+       <section class="hero-section">
+        <div class="container">
+          <div class="row align-items-center">
+            <div class="col-md-6">
+              
+              <h1 class="hero-title"><br>BIM    <br>|Architecture <br>|Structure
+                <br>|MEPF</h1>
+              <p class="hero-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam commodo urna magna,
+                vel faucibus tellus mattis vitae.</p>
+              <!-- <a href="#" class="btn btn-primary btn-lg">Get Started</a> -->
+            </div>
+            <div class="col-md-6">
+              <img src="./assets/images/specialization.png" alt="Hero Image" class="specialization_img">
+            </div>
+          </div>
+        </div>
+        </section>
+
+        <!-- Our specialization -->
+        <section class="about-us p-5 bg-white">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-md-6">
+                      <img class="specialization_img" src="./assets/images/specialization.png">
+                        <!-- <img src="https://images.unsplash.com/photo-1552664730-d307ca884978?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NzEyNjZ8MHwxfHNlYXJjaHw4fHxjb21wYW55fGVufDB8MHx8fDE3MjEyMTE5MDZ8MA&ixlib=rb-4.0.3&q=80&w=1080" alt="About Us" class="img-fluid rounded shadow"> -->
+                    </div>
+                    <div class="col-md-6">
+                        
+                        <h2 class="font-weight-bold mb-4">Our specialization</h2>
+                        <p class="text-muted mb-4">We proudly offer the best BIM services provider in the USA, backed by a team of well-trained and knowledgeable specialists in their area of practice. Our expert team of BIM architects, engineers, and CAD professionals collaborates seamlessly to provide technically superior support for CAD and BIM. This enables our customers to achieve and exceed their competitiveness in their design and construction projects.</p>
+                        <div class="row">
+                            <div class="col-md-6 text-center">
+                                <!-- <h5 class="text-primary">Our Mission</h5> -->
+                                <ul class="list-unstyled">
+                                    <li><i class="bi bi-check-circle me-2 " style="color: #C8A272;"></i>Innovative Solutions</li>
+                                    <li><i class="bi bi-check-circle me-2 " style="color: #C8A272;"></i>Customer Satisfaction</li>
+                                    <li><i class="bi bi-check-circle me-2 " style="color: #C8A272;"></i>Sustainable Practices</li>
+                                    <!-- <li><i class="bi bi-check-circle me-2 text-primary"></i>Global Reach</li> -->
+                                    <li><i class="bi bi-check-circle me-2 " style="color: #C8A272;"></i>Industry Leadership</li>
+                                    <li><i class="bi bi-check-circle me-2 " style="color: #C8A272;"></i>Continuous Growth</li>
+                                  </ul>
+                            </div>
+                            <!-- <div class="col-md-6">
+                                <h5 class="text-primary">Our Vision</h5>
+                                <ul class="list-unstyled">
+                                    <li><i class="bi bi-bullseye me-2 text-primary"></i>Global Reach</li>
+                                    <li><i class="bi bi-bullseye me-2 text-primary"></i>Industry Leadership</li>
+                                    <li><i class="bi bi-bullseye me-2 text-primary"></i>Continuous Growth</li>
+                                </ul>
+                            </div> -->
+                        </div>
+                        <!-- <a href="#" class="btn btn-primary mt-4">Learn More</a> -->
+                    </div>
+                    
+                </div>
+                
+                <!-- <div class="row mt-5">
+                    <div class="col-md-3 col-6 mb-4">
+                        <div class="text-center">
+                            <i class="bi bi-people fs-1 text-primary mb-2"></i>
+                            <h2 class="fw-bold">500+</h2>
+                            <p class="text-muted">Clients</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-6 mb-4">
+                        <div class="text-center">
+                            <i class="bi bi-briefcase fs-1 text-primary mb-2"></i>
+                            <h2 class="fw-bold">1000+</h2>
+                            <p class="text-muted">Projects</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-6 mb-4">
+                        <div class="text-center">
+                            <i class="bi bi-trophy fs-1 text-primary mb-2"></i>
+                            <h2 class="fw-bold">50+</h2>
+                            <p class="text-muted">Awards</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-6 mb-4">
+                        <div class="text-center">
+                            <i class="bi bi-globe fs-1 text-primary mb-2"></i>
+                            <h2 class="fw-bold">20+</h2>
+                            <p class="text-muted">Countries</p>
+                        </div>
+                    </div>
+                </div> -->
+            </div>
+        </section>
+
+        <!-- Our Services -->
+        <section class="our-services p-5" style="background-color: #efe0cd;"> 
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-12 text-center mb-5">
+                    <!-- <span class="custom-badge text-white mb-3 d-inline-block">Our Services</span> -->
+                    <h2 class="display-5 fw-bold mb-3">Our Services</h2>
+                    <p class="text-muted">VARMINE CONTECH PVT LTD is one of the leading and trusted companies offering complete BIM Services USA, it includes CAD to BIM Modelling, PDF to BIM Modelling, Scan to BIM/CAD services, 4D -5D simulation and Project management .</p>
+                </div>
+            </div>
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="service-card h-100 p-4">
+                        <!-- <div class="icon-wrapper mb-4"> -->
+                            <!-- <svg width="32" height="32" fill="white" viewBox="0 0 16 16" class="bi bi-laptop">
+                                <path
+                                    d="M13.5 3a.5.5 0 0 1 .5.5V11H2V3.5a.5.5 0 0 1 .5-.5h11zm-11-1A1.5 1.5 0 0 0 1 3.5V12h14V3.5A1.5 1.5 0 0 0 13.5 2h-11zM0 12.5h16a1.5 1.5 0 0 1-1.5 1.5h-13A1.5 1.5 0 0 1 0 12.5z" />
+                            </svg> -->
+                        <!-- </div> -->
+                        <h4 class="service-title text-center mb-3">
+                          BIM Consulting Services</h4>
+                        <p class="service-text text-center mb-0">We have a specialized team of BIM experts who understand the intricacies of BIM implementation…</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="service-card h-100 p-4">
+                        <!-- <div class="icon-wrapper mb-4"> -->
+                            <!-- <svg width="32" height="32" fill="white" viewBox="0 0 16 16" class="bi bi-phone">
+                                <path
+                                    d="M11 1a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h6zM5 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H5z" />
+                                <path d="M8 14a1 1 0 1 0 0-2 1 1 0 0 0 0 2z" />
+                            </svg> -->
+                        <!-- </div> -->
+                        <h4 class="service-title text-center mb-3">
+                          BIM Outsourcing Services</h4>
+                        <p class="service-text text-center mb-0">Our 3D model services aim to improve coordination and collaboration across…</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="service-card h-100 p-4">
+                        <!-- <div class="icon-wrapper mb-4"> -->
+                            <!-- <svg width="32" height="32" fill="white" viewBox="0 0 16 16" class="bi bi-graph-up">
+                                <path
+                                    d="M0 0h1v15h15v1H0V0Zm14.817 3.113a.5.5 0 0 1 .07.704l-4.5 5.5a.5.5 0 0 1-.74.037L7.06 6.767l-3.656 5.027a.5.5 0 0 1-.808-.588l4-5.5a.5.5 0 0 1 .758-.06l2.609 2.61 4.15-5.073a.5.5 0 0 1 .704-.07Z" />
+                            </svg> -->
+                        <!-- </div> -->
+                        <h4 class="service-title text-center mb-3">Visualization services</h4>
+                        <p class="service-text text-center mb-0">We provide 3D Architectural Visualization Services to Owners, Developers, and Architecture Firms…</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="service-card h-100 p-4">
+                      <!-- <div class="icon-wrapper mb-4"> -->
+                          <!-- <svg width="32" height="32" fill="white" viewBox="0 0 16 16" class="bi bi-graph-up">
+                              <path
+                                  d="M0 0h1v15h15v1H0V0Zm14.817 3.113a.5.5 0 0 1 .07.704l-4.5 5.5a.5.5 0 0 1-.74.037L7.06 6.767l-3.656 5.027a.5.5 0 0 1-.808-.588l4-5.5a.5.5 0 0 1 .758-.06l2.609 2.61 4.15-5.073a.5.5 0 0 1 .704-.07Z" />
+                          </svg> -->
+                      <!-- </div> -->
+                      <h4 class="service-title text-center mb-3">
+                        Integrated<br/>
+                        Services</h4>
+                      <p class="service-text text-center mb-0">We are offering Integrated services for Developers and Contractors. We are providing BIM services…</p>
+                  </div>
+              </div>
+              <div class="col-md-4">
+                <div class="service-card h-100 p-4">
+                    <!-- <div class="icon-wrapper mb-4"> -->
+                        <!-- <svg width="32" height="32" fill="white" viewBox="0 0 16 16" class="bi bi-graph-up">
+                            <path
+                                d="M0 0h1v15h15v1H0V0Zm14.817 3.113a.5.5 0 0 1 .07.704l-4.5 5.5a.5.5 0 0 1-.74.037L7.06 6.767l-3.656 5.027a.5.5 0 0 1-.808-.588l4-5.5a.5.5 0 0 1 .758-.06l2.609 2.61 4.15-5.073a.5.5 0 0 1 .704-.07Z" />
+                        </svg> -->
+                    <!-- </div> -->
+                    <h4 class="service-title text-center mb-3">Virtual Office<br/>
+                      Setup</h4>
+                    <p class="service-text text-center mb-0">We can be your backbone for project delivery by utilizing the most advanced tools, which can upscale…</p>
+                </div>
+            </div>
+            </div>
+        </div>
+    </section>
+        <!-- Project counters -->
+         <section class="counters p-5">
+          <div class="container">
+            <div class="row justify-content-center">
+              <div class="col-12 text-center mb-5">
+                  <!-- <span class="custom-badge text-white mb-3 d-inline-block">Our Services</span> -->
+                  <h2 class="display-5 fw-bold mb-3">It's always about making the<br/>
+                    right choice..</h2>
+                  <!-- <p class="text-muted">VARMINE CONTECH PVT LTD is one of the leading and trusted companies offering complete BIM Services USA, it includes CAD to BIM Modelling, PDF to BIM Modelling, Scan to BIM/CAD services, 4D -5D simulation and Project management .</p> -->
+              </div>
+          </div>
+            <div class="row mt-5">
+              <div class="col-md-3 col-6 mb-4">
+                  <div class="text-center">
+                      <!-- <i class="bi bi-people fs-1 text-primary mb-2"></i> -->
+                      <h1 class="fw-bold">25%</h1>
+                      <p class="text-muted mt-5 me-5">Reduce Rework Cost</p>
+                  </div>
+              </div>
+              <div class="col-md-3 col-6 mb-4">
+                  <div class="text-center">
+                      <!-- <i class="bi bi-briefcase fs-1 text-primary mb-2"></i> -->
+                      <h1 class="fw-bold">50%</h1>
+                      <p class="text-muted mt-5 me-5">Overall Cost Reduction ​</p>
+                  </div>
+              </div>
+              <div class="col-md-3 col-6 mb-4">
+                  <div class="text-center">
+                      <!-- <i class="bi bi-trophy fs-1 text-primary mb-2"></i> -->
+                      <h1 class="fw-bold">99%</h1>
+                      <p class="text-muted mt-5 me-5">Client Satisfaction</p>
+                  </div>
+              </div>
+              <div class="col-md-3 col-6 mb-4">
+                  <div class="text-center">
+                      <!-- <i class="bi bi-globe fs-1 text-primary mb-2"></i> -->
+                      <h1 class="fw-bold">100%</h1>
+                      <p class="text-muted mt-5 me-5">Quality & Time Delivery</p>
+                  </div>
+              </div>
+          </div>
+            </div>
+         </section>
+
+          <!-- Why choose us -->
+        <section class="about-us p-5 " style="background-color: #ffeeda;">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-md-6">
+                        <img src="https://www.varminect.com/wp-content/uploads/2022/09/why-choose-us.png" alt="About Us" class="img-fluid ">
+                    </div>
+                    <div class="col-md-6">
+                        <h2 class="font-weight-bold mb-4 mt-3">Reasons to choose us</h2>
+                        <p class="text-muted mb-4">Because we are a known and trusted brand having satisfied clients across the globe.</p>
+                       
+                          <div class="row">
+                            <div class="col-md-6 text-center">
+                                <!-- <h5 class="text-primary">Our Mission</h5> -->
+                                <ul class="list-unstyled">
+                                    <li><i class="bi bi-check-circle me-2 " style="color: #C8A272;"></i>Innovative Solutions</li>
+                                    <li><i class="bi bi-check-circle me-2 " style="color: #C8A272;"></i>Customer Satisfaction</li>
+                                    <li><i class="bi bi-check-circle me-2 " style="color: #C8A272;"></i>Sustainable Practices</li>
+                                    <!-- <li><i class="bi bi-check-circle me-2 text-primary"></i>Global Reach</li> -->
+                                    <li><i class="bi bi-check-circle me-2 " style="color: #C8A272;"></i>Industry Leadership</li>
+                                    <li><i class="bi bi-check-circle me-2 " style="color: #C8A272;"></i>Continuous Growth</li>
+                                  </ul>
+                            </div>
+                            <!-- <div class="col-md-6">
+                                <h5 class="text-primary">Our Vision</h5>
+                                <ul class="list-unstyled">
+                                    <li><i class="bi bi-bullseye me-2 text-primary"></i>Global Reach</li>
+                                    <li><i class="bi bi-bullseye me-2 text-primary"></i>Industry Leadership</li>
+                                    <li><i class="bi bi-bullseye me-2 text-primary"></i>Continuous Growth</li>
+                                </ul>
+                            </div> -->
+                        </div>
+                        
+                        <a href="#" class="btn  mt-4">About us</a>
+                    </div>
+                    
+                </div>
+                
+               
+            </div>
+        </section>
+
+         <!-- Why choose us -->
+         <section class="about-us p-5 bg-light">
+            <div class="container">
+                <div class="row align-items-center">
+                    
+                    <div class="col-md-6">
+                        <h2 class="font-weight-bold mb-4">Our work approach</h2>
+                        <p class="text-muted mb-4">We understand that every project is different and requires a unique process. Our approach is customized to work towards meeting the client’s objective and that is why we follow a client-centric design support approach. This way, we anticipate the project needs based on requirements, right from the point where clients want us to work from.</p>
+                        <!-- <div class="row">
+                            <div class="col-md-6">
+                                <h5 class="text-primary">Our Mission</h5>
+                                <ul class="list-unstyled">
+                                    <li><i class="bi bi-check-circle me-2 text-primary"></i>Innovative Solutions</li>
+                                    <li><i class="bi bi-check-circle me-2 text-primary"></i>Customer Satisfaction</li>
+                                    <li><i class="bi bi-check-circle me-2 text-primary"></i>Sustainable Practices</li>
+                                </ul>
+                            </div>
+                            <div class="col-md-6">
+                                <h5 class="text-primary">Our Vision</h5>
+                                <ul class="list-unstyled">
+                                    <li><i class="bi bi-bullseye me-2 text-primary"></i>Global Reach</li>
+                                    <li><i class="bi bi-bullseye me-2 text-primary"></i>Industry Leadership</li>
+                                    <li><i class="bi bi-bullseye me-2 text-primary"></i>Continuous Growth</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <a href="#" class="btn btn-primary mt-4">Learn More</a> -->
+                    </div>
+                    <div class="col-md-6">
+                        <img src="https://www.varminect.com/wp-content/uploads/2022/08/CHART.png" alt="About Us" class="img-fluid rounded">
+                    </div>
+                    
+                </div>
+                
+                
+            </div>
+        </section>
+
+        <!-- Contact us -->
+         <section class="contact-us" style="background-color: #FFFCF8;">
+            <div class="container p-5">
+                <div class="row justify-content-center">
+                  <!-- <div class="col-lg-10"> -->
+                    <div class="contact-wrapper">
+                      <div class="row g-0">
+                        <div class="col-md-5">
+                          <div class="contact-info h-100">
+                            <h2 class="mb-4">Got a project?</h2>
+                            <p class="mb-4">Do you wish to build, renovate or extend a commercial, business or residential property? Tell us about your project to obtain integrated and comprehensive preconstruction BIM solutions..</p>
+            
+                            <div class="contact-item">
+                              <!-- <div class="contact-icon"> -->
+                                <!-- <i class="fas fa-map-marker-alt"></i> -->
+                              <!-- </div> -->
+                              <div>
+                                <h2 class="mb-0">Business Address</h2>
+                                <p class="mb-0">123 Business Avenue, Suite 100<br>New York, NY 10001</p>
+                              </div>
+                            </div>
+            
+                            <!-- <div class="contact-item">
+                              <div class="contact-icon">
+                                <i class="fas fa-phone"></i>
+                              </div>
+                              <div>
+                                <h6 class="mb-0">Phone</h6>
+                                <p class="mb-0">+1 (555) 123-4567</p>
+                              </div>
+                            </div> -->
+            
+                            <!-- <div class="contact-item">
+                              <div class="contact-icon">
+                                <i class="fas fa-envelope"></i>
+                              </div>
+                              <div>
+                                <h6 class="mb-0">Email</h6>
+                                <p class="mb-0">contact@company.com</p>
+                              </div>
+                            </div> -->
+            
+                            <!-- <div class="social-links">
+                              <h6 class="mb-3">Follow Us</h6>
+                              <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+                              <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+                              <a href="#" class="social-icon"><i class="fab fa-linkedin-in"></i></a>
+                              <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+                            </div> -->
+                          </div>
+                        </div>
+                        
+                        <div class="col-md-7">
+                          <div class="contact-form">
+                            <h3 class="mb-4">Send us a message</h3>
+                            <form>
+                              <div class="row">
+                                <div class="col-md-12 mb-3">
+                                  <label class="form-label">Full Name</label>
+                                  <input type="text" class="form-control" placeholder="John">
+                                </div>
+                                <!-- <div class="col-md-6 mb-3">
+                                  <label class="form-label">Last Name</label>
+                                  <input type="text" class="form-control" placeholder="Doe">
+                                </div> -->
+                              </div>
+                              
+                              <div class="mb-3">
+                                <label class="form-label">Email</label>
+                                <input type="email" class="form-control" placeholder="john@example.com">
+                              </div>
+                              
+                              <div class="mb-3">
+                                <label class="form-label">Subject</label>
+                                <input type="text" class="form-control" placeholder="How can we help?">
+                              </div>
+                              
+                              <div class="mb-4">
+                                <label class="form-label">Message</label>
+                                <textarea class="form-control" rows="5" placeholder="Your message here..."></textarea>
+                              </div>
+                              <div class="mb-3">
+                              <button type="submit" class="btn">Send Message</button>
+                              </div>
+                            </form>
+            
+                            <!-- <div class="map-container mt-4">
+                              <img src="/api/placeholder/800/200" alt="Map" style="width: 100%; height: 100%; object-fit: cover;">
+                            </div> -->
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  <!-- </div> -->
+                </div>
+              </div>
+         </section>
+
+         <!-- Footer -->
+<footer class="bg-dark text-white pt-5 ">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-3 col-lg-4 col-xl-3 mb-4">
+          <h6 class="text-uppercase font-weight-bold mt-5">Arcane Architecture Structure </h6>
+         
+        </div>
+        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+          <h6 class="text-uppercase font-weight-bold mb-4">Services</h6>
+          <p>Product 1</p>
+          <p>Product 2</p>
+          <p>Product 3</p>
+          <p>Product 4</p>
+        </div>
+        <div class="col-md-4 col-lg-3 col-xl-3 mb-md-0 mb-4">
+          <h6 class="text-uppercase font-weight-bold mb-4">Get Touch with us</h6>
+          <p><i class="fas fa-home mr-3"></i> New York, NY 10012, US</p>
+          <p><i class="fas fa-envelope mr-3"></i> info@example.com</p>
+          <p><i class="fas fa-phone mr-3"></i> + 01 234 567 88</p>
+        </div>
+        <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+          <h6 class="text-uppercase font-weight-bold mb-4">Our Presence</h6>
+          <p>Product 1</p>
+          <p>Product 2</p>
+          <p>Product 3</p>
+          <p>Product 4</p>
+        </div>
+        
+      </div>
+    </div>
+    <div class="footer-copyright text-center py-3">
+      <p>© 2025 Copyright:</p>
+      <p>Arcane</p>
+    </div>
+  </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+     <script>
+      document.addEventListener('DOMContentLoaded', function () {
+            var dropdownSubmenus = document.querySelectorAll('.dropdown-submenu');
+            dropdownSubmenus.forEach(function (submenu) {
+                submenu.addEventListener('mouseenter', function () {
+                    submenu.querySelector('.dropdown-menu').classList.add('show');
+                });
+                submenu.addEventListener('mouseleave', function () {
+                    submenu.querySelector('.dropdown-menu').classList.remove('show');
+                });
+            });
+        });
+     </script>
+</body>
+</html>
